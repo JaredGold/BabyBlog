@@ -1,0 +1,100 @@
+body {
+  background-color: rgba(243, 250, 215, 0.808);
+  color: #0f520f; }
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+table {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%; }
+
+th {
+  background-color: #0a360a;
+  color: white; }
+
+th, td {
+  border: 1px solid #0f520f;
+  height: 30px; }
+
+tr:nth-child(odd) {
+  background-color: rgba(203, 209, 181, 0.808); }
+
+tr:nth-child(even) {
+  background-color: rgba(228, 235, 204, 0.808); }
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #2e772e;
+  overflow: hidden; }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffeff1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black; }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white; }
+
+* {
+  box-sizing: border-box; }
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.img-container {
+  position: relative;
+  width: 70%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 50px; }
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center; }
+
+/* When you mouse over the container, fade in the overlay title */
+.img-container:hover .overlay {
+  opacity: 1; }
+
+img:hover {
+  outline: 3px solid green; }
+
+/*# sourceMappingURL=style.css.map */
